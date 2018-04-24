@@ -7,7 +7,8 @@
 ## @section LICENSE	Permission to copy and modify is granted under the GPL
 ## @section REQUIREMENT	Any Linux distribution, run as root
 
-DISTRO_MIRROR=http://archive.ubuntu.com/ubuntu
+#DISTRO_MIRROR=http://archive.ubuntu.com/ubuntu
+DISTRO_MIRROR=http://mirrors.aliyun.com/ubuntu 
 CHROOT_DISTRO=precise
 ARCH=amd64
 SELF_NAME=$(basename $0)
